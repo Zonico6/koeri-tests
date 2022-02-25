@@ -27,7 +27,7 @@ public class NetworkAddTest {
     }
 
     static Stream<Arguments> unionProvider() {
-        return Stream.of(unionArgs("union_0"));
+        return Stream.of(unionArgs("union_0", "union_1", "union_2", "union_3", "union_4", "union_5"));
     }
 
     static Arguments unionArgs(String resource) {
